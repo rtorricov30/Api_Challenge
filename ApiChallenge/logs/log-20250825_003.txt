@@ -1,0 +1,7 @@
+2025-08-25 10:51:15.997 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-25 10:51:16.034 -04:00 [INF] Hosting environment: Development
+2025-08-25 10:51:16.035 -04:00 [INF] Content root path: D:\rtorrico\Documents\GitHub\Apichallenge\ApiChallenge
+2025-08-25 10:51:16.123 -04:00 [INF] HTTP GET /swagger/index.html responded 200 in 96.8816 ms
+2025-08-25 10:51:16.233 -04:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 60.1674 ms
+2025-08-25 10:51:20.818 -04:00 [INF] HTTP GET /api/v1/permissions/getall responded 200 in 1200.2166 ms
+2025-08-25 10:58:12.333 -04:00 [INF] Application is shutting down...

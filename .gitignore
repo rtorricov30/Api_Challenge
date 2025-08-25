@@ -1,0 +1,85 @@
+# Compiled files
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.nupkg
+*.snupkg
+*.log
+
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.so
+*.dylib
+*.class
+
+# Generated files by Visual Studio
+.vscode/
+.vs/
+*.DS_Store
+*.pyc
+.vscode/
+.idea/
+
+# Logs and Database files
+*.log
+*.ldf
+*.mdf
+
+# NuGet packages
+*.nuget/
+packages/
+
+# Entity Framework Migrations
+Migrations/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.diff
+*.patch
+*.class
+*.pid
+*.seed
+*.pid.lock
+
+ 
+# Environment files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ASP.NET Runtime artifacts
+wwwroot/
+
+# MediatR and other cached files
+.cache/
+MediatR.dll
+
+# Test artifacts
+TestResults/
+.trx
+
+# Files created by operating system
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
