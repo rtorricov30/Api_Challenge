@@ -20,4 +20,5 @@ Infraestructure/ -> Repositorios, DbContext, migraciones, servicios (Elastic, Ka
 ## Levantar infraestructura con Docker(Elastic, Kafka,Sql Server)
 docker-compose up -d
 ## Base de datos
+dotnet ef migrations add InitDb --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
 dotnet ef database update --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
