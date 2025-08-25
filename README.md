@@ -13,12 +13,12 @@ Este proyecto implementa un **Web API en .NET 8** para gestionar permisos de usu
 
 
 ## Estructura del proyecto
-ApiChallenge/ -> Proyecto Web API (controllers, startup)
-Application/ -> Lógica de negocio, DTOs, interfaces
-Domain/ -> Entidades del dominio
-Infraestructure/ -> Repositorios, DbContext, migraciones, servicios (Elastic, Kafka)
+- ApiChallenge/ -> Proyecto Web API (controllers, startup)
+- Application/ -> Lógica de negocio, DTOs, interfaces
+- Domain/ -> Entidades del dominio
+- Infraestructure/ -> Repositorios, DbContext, migraciones, servicios (Elastic, Kafka)
 ## Levantar infraestructura con Docker(Elastic, Kafka,Sql Server)
 docker-compose up -d
 ## Base de datos
-dotnet ef migrations add InitDb --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
-dotnet ef database update --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
+- dotnet ef migrations add InitDb --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
+- dotnet ef database update --project .\Infraestructure\Infraestructure.csproj --startup-project .\ApiChallenge\ApiChallenge.csproj
